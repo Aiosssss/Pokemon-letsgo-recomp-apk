@@ -1,4 +1,4 @@
-# ⚡ LetsGoRecomp Android (v1.0.9 - Edisi Bahasa Indonesia)
+# ⚡ LetsGoRecomp Android
 
 
 
@@ -46,7 +46,7 @@ Pengujian dilakukan secara menyeluruh pada perangkat berarsitektur GPU **Arm Mal
 
 ## 📦 Bedah Isi & Arsitektur Teknis APK
 
-Tabel berikut merinci struktur internal dari file `LetsGoRecomp-1.0.9-indonesia-54mb (2).apk`:
+Tabel berikut merinci struktur internal dari file 
 
 | Komponen / Path di Dalam APK | Ukuran | Fungsi & Deskripsi Teknis |
 | :--- | :--- | :--- |
@@ -67,7 +67,7 @@ Tabel berikut merinci struktur internal dari file `LetsGoRecomp-1.0.9-indonesia-
    * Buat sebuah folder di penyimpanan internal ponsel Anda (misalnya `/storage/emulated/0/LetsGo/`).
    * Masukkan file dump game **Pokémon: Let's Go, Pikachu! (v1.0.0)** berformat `.nsp` (tidak terkompresi/bukan `.ncz`) serta file `prod.keys` (dan `title.keys` bila diperlukan) ke dalam folder tersebut.
 2. **Pasang & Buka Aplikasi**:
-   * Instal file `LetsGoRecomp-1.0.9-indonesia-54mb.apk` pada perangkat Android 9.0+ (ARM64).
+   * Instal file `LetsGoRecomp.apk` pada perangkat Android 9.0+ (ARM64).
    * Berikan izin akses penyimpanan saat diminta.
 3. **Impor Data Game**:
    * Ketuk tombol **Impor Game (NSP)** lalu arahkan ke folder tempat Anda menyimpan file `.nsp` dan `prod.keys` (atau pilih **Gunakan Folder Hasil Ekstrak** jika Anda sudah memiliki folder `extracted/exefs/main` dan `extracted/romfs.bin`).
@@ -105,7 +105,7 @@ Jika Anda menginginkan tampilan yang lebih ringkas atau membutuhkan deskripsi kh
 ## Varian 2: Tampilan Minimalis & Ringkas (Compact README)
 
 ```markdown
-# 🎮 Pokémon: Let's Go, Pikachu! — Android Recomp (v1.0.9 Indonesia)
+# 🎮 Pokémon: Let's Go, Pikachu! — Android Recomp
 
 Port Android berbasis **Static Recompilation (ARM64 + Vulkan 1.3)** dari proyek [letsgo-recomp](https://github.com/raulzrrs/letsgo-recomp) dengan antarmuka **Bahasa Indonesia** dan kontrol **Joy-Con Eden Overlay**.
 
@@ -121,7 +121,7 @@ Port Android berbasis **Static Recompilation (ARM64 + Vulkan 1.3)** dari proyek 
 - **Joy-Con Eden Overlay**: Ukuran, posisi, dan transparansi tombol sentuh dapat diatur bebas + dukungan Giroskop & Haptik.
 
 ### 📥 Cara Pakai Singkat
-1. Instal `LetsGoRecomp-1.0.9-indonesia-54mb.apk`.
+1. Instal `LetsGoRecomp.apk.
 2. Siapkan file `.nsp` (*Pokémon: Let's Go, Pikachu! v1.0.0*) dan `prod.keys` di satu folder.
 3. Pilih **Impor Game (NSP)** di aplikasi dan tunggu verifikasi selesai.
 4. Untuk pengguna **POCO X7 Pro / GPU Mali**, pilih **Driver Sistem Vulkan (Universal)** lalu ketuk **MAINKAN**.
@@ -130,7 +130,7 @@ Port Android berbasis **Static Recompilation (ARM64 + Vulkan 1.3)** dari proyek 
 ## Varian 3: Template Catatan Rilis (GitHub Release Notes)
 
 ```markdown
-## 🚀 Rilis LetsGoRecomp v1.0.9 (Edisi Bahasa Indonesia)
+## 🚀 Rilis LetsGoRecomp
 
 Rilis ini menghadirkan port rekompilasi statis native ARM64 (`com.letsgorecomp`) untuk Android dengan terjemahan antarmuka penuh ke dalam **Bahasa Indonesia**.
 
@@ -139,11 +139,6 @@ Rilis ini menghadirkan port rekompilasi statis native ARM64 (`com.letsgorecomp`)
 * **Tested on POCO X7 Pro (Mali-G720 MC7)**: Teruji berjalan stabil pada **30 FPS** menggunakan *Driver Sistem Vulkan (Universal)* pada resolusi Native 720p (`1.0x`).
 * **Bundled Turnip Driver (Adreno)**: Menyertakan `Mesa Turnip v26.3.0-20261015-r5-8G2-OneUI` (`Vulkan 1.4.363`) di dalam APK untuk pengguna Snapdragon.
 * **Joy-Con Eden Overlay**: Mendukung mode edit tata letak (*drag & pinch-to-zoom*), pengaturan transparansi (`30%`–`100%`), sembunyikan tombol, giroskop, dan getaran haptik.
-
-### 🖼️ Screenshot Hasil Tes (POCO X7 Pro)
-![Screenshot 1](1003817023.jpg)
-![Screenshot 2](1003817024.jpg)
-![Screenshot 3](1003817022.jpg)
 
 ### 🔒 Verifikasi File APK
 * **File**: `LetsGoRecomp-1.0.9-indonesia-54mb (2).apk` (`54.39 MB`)
